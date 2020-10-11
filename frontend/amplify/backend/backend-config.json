@@ -1,0 +1,24 @@
+{
+	"api": {
+		"awsadobehackathon": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"authConfig": {
+					"defaultAuthentication": {
+						"authenticationType": "AWS_IAM"
+					},
+					"additionalAuthenticationProviders": []
+				}
+			}
+		}
+	},
+	"auth": {
+		"awsadobehackathona2556776": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}

@@ -1,0 +1,10 @@
+type Patient @model {
+  id: ID!
+  name: String!
+  gender: String!
+  birthDate: AWSDate
+  address: String
+  maritalStatus: String
+  generalPractitioner: String
+  managingOrganization: String
+}
